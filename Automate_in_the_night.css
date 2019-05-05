@@ -1,0 +1,7 @@
+@-moz-document domain("automatetheboringstuff.com") {
+@namespace url(http://www.w3.org/1999/xhtml);
+body {
+    background: #000 !important;
+    color: #FEFFFD !important;
+}
+}
