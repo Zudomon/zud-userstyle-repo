@@ -2,6 +2,9 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 body {
     background: #000 !important;
-    color: #FEFFFD !important;
+    color: #FEFFFD !important;    
+    
+ /* background: #0e0338 !important;
+    color: #a0ac94 !important; */
 }
 }
