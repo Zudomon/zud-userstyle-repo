@@ -207,3 +207,8 @@ canvas.ytd-section-list-renderer, caption.ytd-section-list-renderer, center.ytd-
 .content.ytd-video-secondary-info-renderer {
     color: #d4e00c !important;
 }
+
+.content.content-line-height-override.ytd-metadata-row-renderer , .content.ytd-metadata-row-header-renderer {
+    line-height: 2.1rem;
+    color: aqua !important;
+}
