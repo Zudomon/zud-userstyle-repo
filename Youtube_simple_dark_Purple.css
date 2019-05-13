@@ -170,7 +170,7 @@ a.yt-simple-endpoint.ytd-button-renderer {
 corrected.yt-search-query-correction, .italic.yt-formatted-string, .content-text.ytd-metadata-with-image-row-renderer:first-child , .content-text.ytd-metadata-with-image-row-renderer:not(:first-child), #corrected.yt-search-query-correction {
     color: yellow  !important;
 }
-/*update*/
+
 #video-title.ytd-radio-renderer , #video-title.ytd-playlist-renderer{
     color: #b817ff !important;
 }
@@ -208,6 +208,7 @@ canvas.ytd-section-list-renderer, caption.ytd-section-list-renderer, center.ytd-
     color: #d4e00c !important;
 }
 
+/*update*/
 .content.content-line-height-override.ytd-metadata-row-renderer , .content.ytd-metadata-row-header-renderer {
     line-height: 2.1rem;
     color: aqua !important;
