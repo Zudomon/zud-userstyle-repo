@@ -207,9 +207,18 @@ canvas.ytd-section-list-renderer, caption.ytd-section-list-renderer, center.ytd-
 .content.ytd-video-secondary-info-renderer {
     color: #d4e00c !important;
 }
-
 /*update*/
 .content.content-line-height-override.ytd-metadata-row-renderer , .content.ytd-metadata-row-header-renderer {
     line-height: 2.1rem;
     color: aqua !important;
+}
+#items.yt-horizontal-list-renderer > ytd-post-renderer.yt-horizontal-list-renderer {
+    background-color: #330a48 !important;
+}
+ytd-post-renderer[surface_="backstage-surface-type-home"] #home-content-text.ytd-post-renderer {
+    color: #909 !important;
+}
+ytd-post-renderer[surface_="backstage-surface-type-home"][attachment="video"] #content-attachment.ytd-post-renderer ytd-video-renderer.ytd-post-renderer, ytd-post-renderer[surface_="backstage-surface-type-home"][attachment="playlist"] #content-attachment.ytd-post-renderer ytd-playlist-renderer.ytd-post-renderer {
+    padding: 0;
+    background-color: #230731  !important;
 }
